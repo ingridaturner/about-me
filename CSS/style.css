@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+*{
+    padding: 5;
+    margin: 0;
+    font-family: "Jua", sans-serif;
+}
+
+/*header and navigation bar*/
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #A0C878;
+    border: 2px solid #FAF6E9;
+    font-size: 18px;
+    color: #FAF6E9;
+    width: 221px;
+    height: 53px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.nav-button:hover{
+    background-color: #3A7F49;
+}
+
+.nav-bar{
+    height: 100px;
+    background-color: #A0C878;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    gap: 10px;
+}
+
+main{
+    background-color: #FFFDF6;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*card containing information about me*/
+.card-container{
+    position: relative;
+    width: 330px;
+    margin: 100px auto;
+}
+
+.card{
+    height: 360px;
+    width: 790px;
+    background-color: #FAF6E9;
+    border: 3.5px solid #A0C878;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    display: flex;
+}
+
+.container{
+    height: 340px;
+    width: 515px;
+    padding: 2px 16px;
+}
+
+.header-text{
+    color: #3A7F49;
+    font-size: 30px;
+    padding: 10px 0;
+    display: block;
+}
+
+.body-text{
+    color:#2B5023;
+    font-size: 22.5px;
+    padding: 10px 0;
+}
+
+.photocard{
+    height: 350px;
+}
+
+.hobbies{
+    display: flex;
+    align-items: start;
+    padding: 30px 300px;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.hobbies-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.hobbies-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #A0C878;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hobbies-card img{
+    width: 2rem;
+}
+
+/*footer*/
+footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFDF6;
+}
